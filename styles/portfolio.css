@@ -15,6 +15,11 @@ body{
     font-weight: 700;
     color: white;
     padding: 15px 35px;
+    cursor: pointer;
+}
+.btn-primary:hover{
+    background-color: blueviolet;
+    color: gold;
 }
 
 /* nav related styles */
@@ -57,10 +62,11 @@ nav a{
     background-image: url('../images/header_bg.png');
     background-repeat: no-repeat;
     background-position: bottom right;
+
 }
 
 .banner{
-    padding: 30px 30px 0px 150px;
+    padding: 30px 0px 0px 150px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -68,8 +74,9 @@ nav a{
 
 .profile-pic{
  
-width: 584px;
-height: 676px;
+width: 650px;
+height: px;
+ 
 }
 
 .banner-greeting{
@@ -163,4 +170,21 @@ main section{
 
 .resume-container{
     display: flex;
+}
+
+.culm-title2, .culm-dis{
+    color: #757575;
+}
+
+.resume-container{
+    padding: 20px;
+}
+.resume-culm{
+    padding: 20px;
+}
+ 
+ 
+.download-cv{
+     text-align: center;
+     margin-top: 50px;
 }
